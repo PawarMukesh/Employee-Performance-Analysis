@@ -5,6 +5,7 @@
 # PROJECT SUMMARY:
 ## BUISNESSCASE & GOAL OF PROJECT: BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT THE PERFOMANCE RATING OF EMPLOYEE
 INX Future Inc Employee Performance - Project
+
 **The Data science project which is given here is an analysis of employee performance**
 
 # The Goal and Insights of the project are as follows:
@@ -65,9 +66,11 @@ PerformanceRating
 
 
 ## 3.Univariate, Bivariate & Multivariate Analysis
+
 ### Library Used: Matplotlib & Seaborn
 ### Plots Used: Histplot, Lineplot, CountPlot, Barplot
 ### Tip: All Observation or insights written below the plots
+
 **Univariate Analysis: In univariate analysis we get the unique labels of categorical features, as well as get the range & density of numbers**
 
 **Bivariate Analysis: In bivariate analysis we check the feature relationship with target veriable.**
