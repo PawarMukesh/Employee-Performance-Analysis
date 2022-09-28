@@ -12,6 +12,7 @@ INX Future Inc Employee Performance - Project
 
 ## Department wise performances
 ## Top 3 Important Factors effecting employee performance
+
 A trained model which can predict the employee performance based on factors as inputs. This will be used to hire employees
 Recommendations to improve the employee performance based on insights from analysis
 The given Employee dataset consist of 1200 rows. The features present in the data are 28 columns. The shape of the dataset is 1200x28. The 28 features are classified into quantitative and qualitative where 19 features are quantitative (11 columns consists numeric data & 8 columns consists ordinal data) and 8 features are qualitative. EmpNumber consist alphanumerical data (distinct values) which doesn't play a role as a relevant feature for performance rating.
@@ -71,11 +72,11 @@ PerformanceRating
 ### Plots Used: Histplot, Lineplot, CountPlot, Barplot
 ### Tip: All Observation or insights written below the plots
 
-**Univariate Analysis: In univariate analysis we get the unique labels of categorical features, as well as get the range & density of numbers**
+* Univariate Analysis: In univariate analysis we get the unique labels of categorical features, as well as get the range & density of numbers
 
-**Bivariate Analysis: In bivariate analysis we check the feature relationship with target veriable.**
+* Bivariate Analysis: In bivariate analysis we check the feature relationship with target veriable.
 
-**Multivariate Analysis: In multivariate Analysis check the relationship between two veriable with respect to the target veriable.**
+* Multivariate Analysis: In multivariate Analysis check the relationship between two veriable with respect to the target veriable.
 
 **CONCLUSION**
 There are some features are positively correlated with performance rating( Target variable) [Emp Environment Satisfaction,Emp Last Salary Hike Percent,Emp Work Life Balance]
@@ -92,17 +93,22 @@ The age distribution is starting from 18 to 60 where the most of the employees a
 Employees are worked in the multiple companies up to 8 companies where most of the employees worked up to 2 companies before getting to work here.
 The hourly rate range is 65 to 95 for majority employees work in this company.
 In General, Most of Employees work up to 5 years in this company. Most of the employees get 11% to 15% of salary hike in this company.
-### Check Skewness and Kurtosis of Numerical Features
-**Checking weather the data is Normally distributed or Not with Skewness and Kurtosis**
 
-**YearsSinceLastPromotion, This column is skewed**
+
+## Check Skewness and Kurtosis of Numerical Features
+* Checking weather the data is Normally distributed or Not with Skewness and Kurtosis**
+
+### YearsSinceLastPromotion, This column is skewed
+
 1. skewness for YearsSinceLastPromotion: 1.9724620367914252
 2. kurtosis for YearsSinceLastPromotion: 3.5193552691799805
-Distribution of Mean of Data
-Distribution of mean close to guassian distribution with mean value 9.5
-we can say that around 80% feature mean lies between 8.5 to 10.5
-Distribution of Standard Deviation of Data
-Distribution of standard deviation of data also look like guassian distribution around 30% of feature standard deviation around the range of 3 3 to 20 and remaining 70% feature standard deviation in between 0 to 2
+
+* Distribution of Mean of Data
+1. Distribution of mean close to guassian distribution with mean value 9.5
+2. we can say that around 80% feature mean lies between 8.5 to 10.5
+
+* Distribution of Standard Deviation of Data
+1. Distribution of standard deviation of data also look like guassian distribution around 30% of feature standard deviation around the range of 3 3 to 20 and remaining 70% feature standard deviation in between 0 to 2
 
 ## 5.Data Pre-Processing
 1. Check Missing Value: Their is no missing value in data
@@ -150,8 +156,8 @@ Principal component analysis (PCA) is a popular technique for analyzing large da
 **SMOTE:** SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them. SMOTE synthesises new minority instances between existing minority instances.
 3.Splitting Training And Testing Data: 80% data use for training & 20% data used for testing
 
-### Algorithm:
-**AIM: Create a sweet spot model (Low bias, Low variance)**
+## Algorithm:
+* AIM: Create a sweet spot model (Low bias, Low variance)
 
 **HERE WE WILL BE EXPERIMENTING WITH THREE ALGORITHM**
 
