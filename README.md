@@ -132,7 +132,7 @@ In General, Most of Employees work up to 5 years in this company. Most of the em
 * Standard Scaling: Standardization is the process of scaling the feature, it assumes the feature follow normal distribution and scale the feature between mean and standard deviation, here mean is 0 and standard deviation is always 1.
 
 
-## 6.Future Selection
+## 6.Feature Selection
 
 1.  Drop unique and constant feature: Dropping employee number because this is a constant column as well as drop Years Since Last Promotion because we create a new feaure using square root transformation
 
