@@ -4,7 +4,7 @@
 
 # PROJECT SUMMARY:
 ## BUISNESSCASE & GOAL OF PROJECT: BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT THE PERFOMANCE RATING OF EMPLOYEE
-INX Future Inc Employee Performance - Project
+
 
 **The Data science project which is given here is an analysis of employee performance**
 
@@ -23,10 +23,8 @@ The dataset consists of Categorical data and Numerical data. The Target variable
 
 One of the important goal of this project is to find the important feature affecting the performance rating. The important features were predicted using the machine learning model feature importance technique. The main technique used in the preprocessing data using the Mannual & Frequency encoding method to convert the string - categorical data into numerical data, because, Most of machine learning methods are based on numerical methods where strings are not supportive. The overall project was performed and achieved the goals by using the machine learning model and visualization techniques.
 
-## 1. Requirement
-The data was given from the IABAC for this project where the collected source is IABAC™. The data is based on INX Future Inc, (referred as INX ). It is one of the leading data analytics and automation solutions provider with over 15 years of global business presence. INX is consistently rated as top 20 best employers past 5 years. The data is not from the real organization. The whole project was done in Jupiter notebook with python platform.
 
-## 2. Analysis
+## 1. Analysis
 Data were analyzed by describing the features present in the data. the features play the bigger part in the analysis. The features tell the relation between the dependent and independent variables. Pandas also help to describe the datasets answering following questions early in our project. The data present in the dataset are divided into numerical and categorical data.
 
 **Categorical Features**
@@ -66,7 +64,7 @@ EmpWorkLifeBalance
 PerformanceRating
 
 
-## 3.Univariate, Bivariate & Multivariate Analysis
+## 2.Univariate, Bivariate & Multivariate Analysis
 
 ### Library Used: Matplotlib & Seaborn
 ### Plots Used: Histplot, Lineplot, CountPlot, Barplot
@@ -82,7 +80,7 @@ PerformanceRating
 There are some features are positively correlated with performance rating( Target variable) [Emp Environment Satisfaction,Emp Last Salary Hike Percent,Emp Work Life Balance]
 
 
-## 4.Explotary Data Analysis
+## 3.Explotary Data Analysis
 **Basic Check & Statistical Measures***
 **Their is no constant column is present in Numerical as well as categoriacl data.**
 
@@ -110,7 +108,7 @@ In General, Most of Employees work up to 5 years in this company. Most of the em
 * Distribution of Standard Deviation of Data
 1. Distribution of standard deviation of data also look like guassian distribution around 30% of feature standard deviation around the range of 3 3 to 20 and remaining 70% feature standard deviation in between 0 to 2
 
-## 5.Data Pre-Processing
+## 4.Data Pre-Processing
 1. Check Missing Value: Their is no missing value in data
 
 2. Categorical Data Conversion: Handel categorical data with the help of frequency and mannual encoding, because feature is contain lot's of labels
@@ -132,7 +130,7 @@ In General, Most of Employees work up to 5 years in this company. Most of the em
 * Standard Scaling: Standardization is the process of scaling the feature, it assumes the feature follow normal distribution and scale the feature between mean and standard deviation, here mean is 0 and standard deviation is always 1.
 
 
-## 6.Feature Selection
+## 5.Feature Selection
 
 1.  Drop unique and constant feature: Dropping employee number because this is a constant column as well as drop Years Since Last Promotion because we create a new feaure using square root transformation
 
@@ -148,7 +146,7 @@ Principal component analysis (PCA) is a popular technique for analyzing large da
 
 5. Saving Pre-Process Data: save the all preprocess data in new file and add target feature to it.
 
-## 7.Machine learning Model Creation & Evaluation
+## 6.Machine learning Model Creation & Evaluation
 1. Define Dependant and Independant Features:
 
 2. Balancing the data: The data is imbalance, so we need to balance the data with the help of SMOTE
