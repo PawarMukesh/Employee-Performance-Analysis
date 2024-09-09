@@ -1,74 +1,101 @@
-# Employee-Performance-Analysis
+# EMPLOYEE PERFORMANCE ANALYSIS
 
 
 
-# PROJECT SUMMARY:
-## BUISNESSCASE & GOAL OF PROJECT: BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT THE PERFOMANCE RATING OF EMPLOYEE
+## PROJECT SUMMARY:
+## BUSINESS CASE & GOAL OF PROJECT: BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT THE PERFOMANCE RATING OF EMPLOYEE
 
 
 **The Data science project which is given here is an analysis of employee performance**
 
 # The Goal and Insights of the project are as follows:
 
-## Department wise performances
-## Top 3 Important Factors effecting employee performance
+## Department wise performances:
+### Top 3 Important Factors effecting employee performance
 
-A trained model which can predict the employee performance based on factors as inputs. This will be used to hire employees
+* A trained model which can predict the employee performance based on factors as inputs. This will be used to hire employees
 Recommendations to improve the employee performance based on insights from analysis
 The given Employee dataset consist of 1200 rows. The features present in the data are 28 columns. The shape of the dataset is 1200x28. The 28 features are classified into quantitative and qualitative where 19 features are quantitative (11 columns consists numeric data & 8 columns consists ordinal data) and 8 features are qualitative. EmpNumber consist alphanumerical data (distinct values) which doesn't play a role as a relevant feature for performance rating.
 
-From Correlation we can get the important aspects of the data, Correlation between features and Performance Rating.Correlation is a statistical measure that expresses the extent to which two variables are linearly related.The analysis of the project has gone through the stage of Univariate,Bivariate & Multivariate analysis, correlation analysis and analysis by each department to satisfy the project goal.
+* From Correlation we can get the important aspects of the data, Correlation between features and Performance Rating.Correlation is a statistical measure that expresses the extent to which two variables are linearly related.The analysis of the project has gone through the stage of Univariate,Bivariate & Multivariate analysis, correlation analysis and analysis by each department to satisfy the project goal.
 
-The dataset consists of Categorical data and Numerical data. The Target variable consist of ordinal data, so this is a classification problem.The multiple machine learning model used in this project is Support vector classifier, Random forest classifier & Artifical neural network[Multilayer percepton]. from above all models Artifical neural network[Multilayer percepton] predicts higher accuracy 95.80%.
+* The dataset consists of Categorical data and Numerical data. The Target variable consist of ordinal data, so this is a classification problem.The multiple machine learning model used in this project is Support vector classifier, Random forest classifier & Artifical neural network[Multilayer percepton]. from above all models Artifical neural network[Multilayer percepton] predicts higher accuracy 95.80%.
 
-One of the important goal of this project is to find the important feature affecting the performance rating. The important features were predicted using the machine learning model feature importance technique. The main technique used in the preprocessing data using the Mannual & Frequency encoding method to convert the string - categorical data into numerical data, because, Most of machine learning methods are based on numerical methods where strings are not supportive. The overall project was performed and achieved the goals by using the machine learning model and visualization techniques.
+* One of the important goal of this project is to find the important feature affecting the performance rating. The important features were predicted using the machine learning model feature importance technique. The main technique used in the preprocessing data using the Mannual & Frequency encoding method to convert the string - categorical data into numerical data, because, Most of machine learning methods are based on numerical methods where strings are not supportive. The overall project was performed and achieved the goals by using the machine learning model and visualization techniques.
 
 
-## 1. Analysis
+### 1. Analysis
 Data were analyzed by describing the features present in the data. the features play the bigger part in the analysis. The features tell the relation between the dependent and independent variables. Pandas also help to describe the datasets answering following questions early in our project. The data present in the dataset are divided into numerical and categorical data.
 
-**Categorical Features**
-EmpNumber
-Gender
-EducationBackground
-MaritalStatus
-EmpDepartment
-EmpJobRole
-BusinessTravelFrequency
-OverTime
-Attrition
+### Categorical Features:
+1.EmpNumber
+
+2.Gender
+
+3.EducationBackground
+
+4.MaritalStatus
+
+5.EmpDepartment
+
+6.EmpJobRole
+
+7.BusinessTravelFrequency
+
+8.OverTime
+
+9.Attrition
 
 
-**Numerical Features**
-Age
-DistanceFromHome
-EmpHourlyRate
-NumCompaniesWorked
-EmpLastSalaryHikePercent
-TotalWorkExperienceInYears
-TrainingTimesLastYear
-ExperienceYearsAtThisCompany
-ExperienceYearsInCurrentRole
-YearsSinceLastPromotion
-YearsWithCurrManager
+### Numerical Features:
+
+1.Age
+
+2.DistanceFromHome
+
+3.EmpHourlyRate
+
+4.NumCompaniesWorked
+
+5.EmpLastSalaryHikePercent
+
+6.TotalWorkExperienceInYears
+
+7.TrainingTimesLastYear
+
+8.ExperienceYearsAtThisCompany
+
+9.ExperienceYearsInCurrentRole
+
+10.YearsSinceLastPromotion
+
+11.YearsWithCurrManager
 
 
-**Ordinal Features**
-EmpEducationLevel
-EmpEnvironmentSatisfaction
-EmpJobInvolvement
-EmpJobLevel
-EmpJobSatisfaction
-EmpRelationshipSatisfaction
-EmpWorkLifeBalance
-PerformanceRating
+### Ordinal Features:
+
+1.EmpEducationLevel
+
+2.EmpEnvironmentSatisfaction
+
+3.EmpJobInvolvement
+
+4.EmpJobLevel
+
+5.EmpJobSatisfaction
+
+6.EmpRelationshipSatisfaction
+
+7.EmpWorkLifeBalance
+
+8.PerformanceRating
 
 
-## 2.Univariate, Bivariate & Multivariate Analysis
+### 2.Univariate, Bivariate & Multivariate Analysis:
 
-### Library Used: Matplotlib & Seaborn
-### Plots Used: Histplot, Lineplot, CountPlot, Barplot
-### Tip: All Observation or insights written below the plots
+ **Library Used**: Matplotlib & Seaborn
+ **Plots Used**: Histplot, Lineplot, CountPlot, Barplot
+**Tip**: All Observation or insights written below the plots
 
 * Univariate Analysis: In univariate analysis we get the unique labels of categorical features, as well as get the range & density of numbers
 
@@ -76,7 +103,7 @@ PerformanceRating
 
 * Multivariate Analysis: In multivariate Analysis check the relationship between two veriable with respect to the target veriable.
 
-**CONCLUSION**
+#### **CONCLUSION**
 There are some features are positively correlated with performance rating( Target variable) [Emp Environment Satisfaction,Emp Last Salary Hike Percent,Emp Work Life Balance]
 
 
@@ -85,9 +112,9 @@ There are some features are positively correlated with performance rating( Targe
 **Their is no constant column is present in Numerical as well as categoriacl data.**
 
 ### Distribution of Continuous Features:
-In general, one of the first few steps in exploring the data would be to have a rough idea of how the features are distributed with one another. To do so, we shall invoke the familiar distplot function from the Seaborn plotting library. The distribution has been done by both numerical features. it will show the overall idea about the density and majority of data present in a different level.
+* In general, one of the first few steps in exploring the data would be to have a rough idea of how the features are distributed with one another. To do so, we shall invoke the familiar distplot function from the Seaborn plotting library. The distribution has been done by both numerical features. it will show the overall idea about the density and majority of data present in a different level.
 
-The age distribution is starting from 18 to 60 where the most of the employees are laying between 30 to 40 age count
+* The age distribution is starting from 18 to 60 where the most of the employees are laying between 30 to 40 age count
 Employees are worked in the multiple companies up to 8 companies where most of the employees worked up to 2 companies before getting to work here.
 The hourly rate range is 65 to 95 for majority employees work in this company.
 In General, Most of Employees work up to 5 years in this company. Most of the employees get 11% to 15% of salary hike in this company.
@@ -154,7 +181,7 @@ Principal component analysis (PCA) is a popular technique for analyzing large da
 **SMOTE:** SMOTE (synthetic minority oversampling technique) is one of the most commonly used oversampling methods to solve the imbalance problem. It aims to balance class distribution by randomly increasing minority class examples by replicating them. SMOTE synthesises new minority instances between existing minority instances.
 3.Splitting Training And Testing Data: 80% data use for training & 20% data used for testing
 
-## Algorithm:
+## Algorithms:
 * AIM: Create a sweet spot model (Low bias, Low variance)
 
 **HERE WE WILL BE EXPERIMENTING WITH THREE ALGORITHM**
@@ -179,17 +206,17 @@ Jupyter
 
 
 ### Library Used:
-Pandas
-Numpy
-Matplotlib
-Seaborn
-pylab
-Scipy
-Sklearn
-Pickle
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* pylab
+* Scipy
+* Sklearn
+* Pickle
 
 
-# Goal 1: Department Wise Performances
+## Goal 1: Department Wise Performances
 
 **PLOT USED**
 
@@ -207,7 +234,7 @@ Sales: The Performace rating level 3 is more in the sales department. The male p
 
 * Finance: The finance department performance is exponentially decreasing when age increases. The male employees are doing good. The experience factor is inversely relating to the performance level.
 
-# Goal 2: Top 3 Important Factors effecting employee performance
+## Goal 2: Top 3 Important Factors effecting employee performance
 The top three important features affecting the performance rating are ordered with their importance level as follows,
 
 1. Employment Environment Satisfaction
@@ -220,7 +247,7 @@ The top three important features affecting the performance rating are ordered wi
 
 * Employee work life balance: In EmpWorkLifeBalance, level 3 is showing high Performance Rating of employees
 
-# Goal 3: A Trained model which can predict the employee performance
+## Goal 3: A Trained model which can predict the employee performance
 **The trained model is created using the machine learning algorithm as follows with the accuracy score**
 
 1. Support Vector Classifier: 98.28% accuracy
@@ -228,7 +255,7 @@ The top three important features affecting the performance rating are ordered wi
 3. Artifical Neural Network [Multilayer percepton]: 95.80%
 
 
-# Goal 4: Recommendations to improve the employee performance
+## Goal 4: Recommendations to improve the employee performance
 The overall employee performance can be achieved by employee environment satisfaction. The company needs to focus more on the employee environment satisfaction.
 The salary hike will give the boost to the employees to perform well.
 Promote the employee ervery 6th month
