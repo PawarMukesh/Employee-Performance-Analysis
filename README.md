@@ -4,15 +4,15 @@
 
 
 ## PROJECT SUMMARY:
-## BUSINESS CASE & GOAL OF PROJECT: BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT THE PERFOMANCE RATING OF EMPLOYEE
+### BUSINESS CASE & GOAL OF PROJECT: BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT THE PERFOMANCE RATING OF EMPLOYEE
 
 
 **The Data science project which is given here is an analysis of employee performance**
 
-# THE GOAL AND INSIGHTS OF THE PROJECT ARE AS FOLLOWS:
+## THE GOAL AND INSIGHTS OF THE PROJECT ARE AS FOLLOWS:
 
-## DEPARTMENT WISE PERFORMANCE:
-### Top 3 Important Factors effecting employee performance
+### DEPARTMENT WISE PERFORMANCE:
+#### Top 3 Important Factors effecting employee performance
 
 * A trained model which can predict the employee performance based on factors as inputs. This will be used to hire employees
 Recommendations to improve the employee performance based on insights from analysis
