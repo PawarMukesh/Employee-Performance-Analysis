@@ -1,7 +1,6 @@
 # EMPLOYEE PERFORMANCE ANALYSIS
 
-![image](https://github.com/user-attachments/assets/56cd895c-2c5a-436d-a52c-a73b5faaed01)![image](https://github.com/user-attachments/assets/278e2e5b-f5b9-4a68-9601-1586166eb81a)
-
+![image](https://github.com/user-attachments/assets/56cd895c-2c5a-436d-a52c-a73b5faaed01)
 
 ## PROJECT SUMMARY:
 ### BUSINESS CASE & GOAL OF PROJECT: BASED ON GIVEN FEATURE OF DATASET WE NEED TO PREDICT THE PERFOMANCE RATING OF EMPLOYEE
